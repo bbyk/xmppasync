@@ -1,6 +1,4 @@
 *.suo
-bin/Debug/*
-bin/Debug/*
-obj/Debug/*
-obj/Release/*
+Core/bin/
+Core/obj/
 bin/

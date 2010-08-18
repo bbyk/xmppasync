@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmppasync", "xmppasync.csproj", "{36A06A65-0138-4EC2-9E86-DE0CE46BBAC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmppasync", "Core\xmppasync.csproj", "{36A06A65-0138-4EC2-9E86-DE0CE46BBAC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3355B882-38B0-4804-8B08-631FD2493373}"
 	ProjectSection(SolutionItems) = preProject
