@@ -55,6 +55,16 @@ namespace XmppAsync
 				return;
 			}
 
+			if (Resource == null)
+			{
+				var sb = new StringBuilder();
+				sb.Append(Environment.MachineName.ToLowerInvariant())
+					.Append('.')
+					.Append(Utils.ComputeSHA1Hash(AppDomain.CurrentDomain.BaseDirectory, Encoding.UTF8).Substring(0, 7));
+
+				Resource = sb.ToString();
+			}
+
 			_jc = new AsyncJabberClient
 			{
 				Hostname = Hostname,
